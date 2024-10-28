@@ -59,7 +59,7 @@
     <p class="email-subtext" v-html="$t('email.small')"></p>
 
     <form action="https://api.wordview.cc/api/v1/email">
-      <input type="email" class="email-input" placeholder="email@email.com" required />
+      <input type="email" name="email" class="email-input" placeholder="email@email.com" required />
       <button type="submit" class="email-button">{{ $t('email.button') }}</button>
     </form>
   </div>
